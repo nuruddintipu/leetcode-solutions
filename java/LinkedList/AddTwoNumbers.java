@@ -14,19 +14,29 @@ package java;
  * Space Complexity: O(max(m, n)), the maximum length of the output linked list.
  */
 
+
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ * int val;
+ * ListNode next;
+ * ListNode() {}
+ * ListNode(int val) { this.val = val; }
+ * ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ * int val;
+ * ListNode next;
+ * ListNode(){}
+ * ListNode (int val){
+ * this.val = val;
+ * }
+ * ListNode (int val, ListNode next){
+ * this.val = val;
+ * this.next = next;
+ * }
+ */
+
 public class AddTwoNumbers {
-    public class ListNode {
-        int val;
-        ListNode next;
-        ListNode(){}
-        ListNode (int val){
-            this.val = val;
-        }
-        ListNode (int val, ListNode next){
-            this.val = val;
-            this.next = next;
-        }
-    }
     // Method to add two numbers represented by linked lists
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode dummy = new ListNode(0);
