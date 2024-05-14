@@ -1,34 +1,35 @@
 package java.LinkedList;
+
 /**
  * Definition for singly-linked list.
  * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * int val;
+ * ListNode next;
+ * ListNode() {}
+ * ListNode(int val) { this.val = val; }
+ * ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
 public class RemoveNthNodeFromEnd {
     /**
      * LeetCode problem #19
      * Removes the Nth node from the end of a singly-linked list.
-     *
+     * <p>
      * Time Complexity: O(N)
      * - The algorithm uses two pointers to traverse the list once.
-     *   The 'fast' pointer moves n+1 steps ahead of the 'slow' pointer,
-     *   and then both pointers move together until 'fast' reaches the end.
-     *   Since each pointer can traverse the list at most once, the time
-     *   complexity is O(N), where N is the number of nodes in the list.
-     *
+     * The 'fast' pointer moves n+1 steps ahead of the 'slow' pointer,
+     * and then both pointers move together until 'fast' reaches the end.
+     * Since each pointer can traverse the list at most once, the time
+     * complexity is O(N), where N is the number of nodes in the list.
+     * <p>
      * Space Complexity: O(1)
      * - The algorithm uses only a constant amount of extra space, regardless
-     *   of the size of the input list. It creates two pointers ('fast' and 'slow')
-     *   and a dummy node, but the space they occupy does not depend on the size
-     *   of the list, so the space complexity is O(1).
+     * of the size of the input list. It creates two pointers ('fast' and 'slow')
+     * and a dummy node, but the space they occupy does not depend on the size
+     * of the list, so the space complexity is O(1).
      *
      * @param head The head of the singly-linked list.
-     * @param n The position of the node to remove from the end of the list.
+     * @param n    The position of the node to remove from the end of the list.
      * @return The head of the modified list after removing the Nth node from the end.
      */
 
