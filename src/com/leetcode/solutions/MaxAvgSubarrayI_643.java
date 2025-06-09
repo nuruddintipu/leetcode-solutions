@@ -1,6 +1,5 @@
 package com.leetcode.solutions;
 
-
 /**
  * LeetCode ID: 643
  * Title: Maximum Average Subarray I
@@ -23,7 +22,6 @@ public class MaxAvgSubarrayI_643 {
             currentSum = currentSum - nums[i - k] + nums[i];
             maxAverage = Math.max(maxAverage, (double) currentSum / k);
         }
-
         return maxAverage;
     }
 }
