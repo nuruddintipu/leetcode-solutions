@@ -6,9 +6,23 @@ package com.leetcode.solutions;
  * Difficulty: Hard
  * Topic: Hash Table, String, Sliding window
  * Link: https://leetcode.com/problems/minimum-window-substring/
- * Time Complexity: O(n+m)
- * Space Complexity: O(m)
+ * Time Complexity: O(n+m) where n = s.length(), m = t.length()
+ * Space Complexity: O(m) for character frequency maps
+ *
+ * Approach:
+ * Use a variable-size sliding window with two pointers (left and right).
+ * Maintain frequency maps: 'need' for target string t, 'window' for current window.
+ * Track 'formed' count to know when window contains all required characters.
+ * Expand window by moving right pointer until all characters from t are included.
+ * Contract window by moving left pointer while maintaining validity, recording minimum window.
+ * Use ASCII array (size 128) for O(1) character frequency operations.
+ * Return the smallest valid window found, or empty string if none exists.
+ *
+ * Key insight: A window is valid when it contains at least the required frequency
+ * of each character from t. We expand to find valid windows, then contract to minimize.
+ *
  */
+
 
 public class MinWindowSubstring_76 {
     public String minWindow(String s, String t) {

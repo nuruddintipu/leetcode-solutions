@@ -8,7 +8,17 @@ package com.leetcode.solutions;
  * Link: https://leetcode.com/problems/maximum-average-subarray-i/
  * Time Complexity: O(n)
  * Space Complexity: O(1)
+ *
+ * Approach:
+ * Use a fixed-size sliding window of length k.
+ * Calculate the sum of the first k elements as the initial window sum.
+ * Slide the window by adding the next element and removing the first element of the previous window.
+ * Keep track of the maximum sum found across all windows.
+ * Return the maximum sum divided by k to get the maximum average.
+ * Since all subarrays have the same length k, finding max sum is equivalent to finding max average.
+ *
  */
+
 
 public class MaxAvgSubarrayI_643 {
     public double findMaxAverage(int[] nums, int k) {

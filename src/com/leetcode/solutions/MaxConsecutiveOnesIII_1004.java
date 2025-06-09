@@ -8,6 +8,15 @@ package com.leetcode.solutions;
  * Link: https://leetcode.com/problems/max-consecutive-ones-iii/
  * Time Complexity: O(n)
  * Space Complexity: O(1)
+ *
+ * Approach:
+ * Use a variable-size sliding window with two pointers (left and right).
+ * Maintain a count of zeros in the current window.
+ * Expand the window by moving the right pointer and counting zeros encountered.
+ * When the number of zeros exceeds k, shrink the window from the left until zeros count <= k.
+ * Keep track of the maximum window size found during the process.
+ * The window represents the longest subarray of consecutive 1s after flipping at most k zeros.
+ *
  */
 
 public class MaxConsecutiveOnesIII_1004 {

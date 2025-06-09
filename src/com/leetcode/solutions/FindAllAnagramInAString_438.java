@@ -11,7 +11,17 @@ import java.util.List;
  * Link: https://leetcode.com/problems/find-all-anagrams-in-a-string/
  * Time Complexity: O(n)
  * Space Complexity: O(1)
+ *
+ * Approach:
+ * Use a fixed-size sliding window of length equal to the pattern string.
+ * Maintain frequency counts of characters in both the pattern and current window.
+ * Slide the window through the string one character at a time.
+ * For each position, add the new character and remove the character that's sliding out.
+ * Compare the frequency maps - if they match, we found an anagram starting at current position.
+ * Use array of size 26 for frequency counting since we only deal with lowercase letters.
+ *
  */
+
 
 public class FindAllAnagramInAString_438 {
     public List<Integer> findAnagrams(String s, String p) {
