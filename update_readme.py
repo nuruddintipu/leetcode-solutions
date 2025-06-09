@@ -97,7 +97,7 @@ def update_readme(table, summary):
 
 
 def main():
-    solution_files = SOLUTIONS_DIR.glob("Solution_*.java")
+    solution_files = SOLUTIONS_DIR.glob("*.java")
     all_metadata = [extract_metadata(f) for f in solution_files]
     table = generate_table(all_metadata)
     summary = count_difficulties(all_metadata)
