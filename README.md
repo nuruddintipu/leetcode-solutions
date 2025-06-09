@@ -6,18 +6,19 @@ This repository contains Java-based solutions to popular LeetCode problems.
 
 <!-- AUTO-GENERATED-START -->
 
-**🧠 Problems Solved:** 5 total
+**🧠 Problems Solved:** 6 total
 
 - ✅ Easy: 1
-- ⚠️ Medium: 3
+- ⚠️ Medium: 4
 - 🔥 Hard: 1
 
-![Difficulty Distribution](https://quickchart.io/chart?c={type:'pie',data:{labels:['Easy','Medium','Hard'],datasets:[{data:[1,3,1],backgroundColor:['#4CAF50','#FFC107','#F44336']}}]}})
+![Difficulty Distribution](https://quickchart.io/chart?c={type:'pie',data:{labels:['Easy','Medium','Hard'],datasets:[{data:[1,4,1],backgroundColor:['#4CAF50','#FFC107','#F44336']}}]}})
 
 **📋 Solution Table:**
 
 | ID | Title | Difficulty | Topic | Solution | Time Complexity | Space Complexity |
 |----|--------|------------|--------|----------|-----------------|-----------------|
+| [3](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Longest Substring Without Repeating Character | Medium | Hash Table, String, Sliding Window | [LongestSubstringWithoutRepeatingChar_3.java](src/com/leetcode/solutions/LongestSubstringWithoutRepeatingChar_3.java) | O(n)  | O(min(n, m)
 | [76](https://leetcode.com/problems/minimum-window-substring/) | Minimum Window Substring | Hard | Hash Table, String, Sliding window | [MinWindowSubstring_76.java](src/com/leetcode/solutions/MinWindowSubstring_76.java) | O(n+m)  | O(m)
 | [643](https://leetcode.com/problems/maximum-average-subarray-i/) | Maximum Average Subarray I | Easy | Array, Sliding window | [MaxAvgSubarrayI_643.java](src/com/leetcode/solutions/MaxAvgSubarrayI_643.java) | O(n)  | O(1)
 | [1004](https://leetcode.com/problems/max-consecutive-ones-iii/) | Maximum Consecutive Ones III | Medium | Array, Binary Search, Sliding Window, Prefix Sum | [MaxConsecutiveOnesIII_1004.java](src/com/leetcode/solutions/MaxConsecutiveOnesIII_1004.java) | O(n)  | O(1)
