@@ -21,7 +21,7 @@ package com.leetcode.solutions;
  */
 
 
-public class MaxVowelsInSubstringOfGivenLength_1456 {
+public class _1456_MaxVowelsInSubstringOfGivenLength {
     public int maxVowels(String s, int k) {
         boolean[] isVowel = new boolean[26];
         isVowel[0] = isVowel['e'-'a'] = isVowel['i'-'a'] = isVowel['o'-'a'] = isVowel['u'-'a'] = true;

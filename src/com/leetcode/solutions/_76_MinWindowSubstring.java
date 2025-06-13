@@ -24,7 +24,7 @@ package com.leetcode.solutions;
  */
 
 
-public class MinWindowSubstring_76 {
+public class _76_MinWindowSubstring {
     public String minWindow(String s, String t) {
         if (s == null || t == null || s.length() < t.length()) return "";
 

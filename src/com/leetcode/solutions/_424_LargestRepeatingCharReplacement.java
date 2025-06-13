@@ -18,7 +18,7 @@ package com.leetcode.solutions;
  *
  */
 
-public class LargestRepeatingCharReplacement_424 {
+public class _424_LargestRepeatingCharReplacement {
     private String inputString;
 
     public int characterReplacement(String s, int k) {

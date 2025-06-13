@@ -31,7 +31,7 @@ import java.util.Map;
  */
 
 
-public class SubstringWithConcatenationOfAllWords_30 {
+public class _30_SubstringWithConcatenationOfAllWords {
     public List<Integer> findSubstring(String s, String[] words) {
         List<Integer> indices = new ArrayList<>();
         if(isInvalidInput(s, words)) return indices;

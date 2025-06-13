@@ -19,7 +19,7 @@ package com.leetcode.solutions;
  *
  */
 
-public class MinSizeSubarraySum_209 {
+public class _209_MinSizeSubarraySum {
     public int minSubArrayLen(int s, int[] nums) {
         int left = 0, right = 0, minLen = Integer.MAX_VALUE, sum = 0;
 

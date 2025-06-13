@@ -24,7 +24,7 @@ package com.leetcode.solutions;
  */
 
 
-public class PermutationInString_567 {
+public class _567_PermutationInString {
     public boolean checkInclusion(String s1, String s2) {
         if(s1.length() > s2.length()) return false;
         int[] s1Count = new int[26];

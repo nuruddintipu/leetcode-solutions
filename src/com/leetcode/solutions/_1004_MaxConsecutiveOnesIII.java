@@ -19,7 +19,7 @@ package com.leetcode.solutions;
  *
  */
 
-public class MaxConsecutiveOnesIII_1004 {
+public class _1004_MaxConsecutiveOnesIII {
     public int longestOnes(int[] nums, int k) {
         int left = 0, maxLen = 0, zeroCount = 0;
 

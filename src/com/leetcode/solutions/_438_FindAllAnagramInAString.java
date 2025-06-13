@@ -23,7 +23,7 @@ import java.util.List;
  */
 
 
-public class FindAllAnagramInAString_438 {
+public class _438_FindAllAnagramInAString {
     public List<Integer> findAnagrams(String s, String p) {
         if(s.length() < p.length()) return new ArrayList<>();
         int[] sCount = new int[26];

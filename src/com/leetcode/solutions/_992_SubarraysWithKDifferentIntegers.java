@@ -29,7 +29,7 @@ import java.util.Map;
  */
 
 
-public class SubarraysWithKDifferentIntegers_992 {
+public class _992_SubarraysWithKDifferentIntegers {
     public int subarraysWithKDistinct(int[] nums, int k) {
         return atMostKDistinct(nums, k) - atMostKDistinct(nums, k-1);
     }

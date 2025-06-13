@@ -21,7 +21,7 @@ import java.util.*;
  */
 
 
-public class MaxErasureValue_1695 {
+public class _1695_MaxErasureValue {
     public int maximumUniqueSubarray(int[] nums) {
         Set<Integer> uniqueNums = new HashSet<>();
         int left = 0, sum = 0, maxSum = 0;

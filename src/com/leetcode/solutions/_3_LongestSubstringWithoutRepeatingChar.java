@@ -22,7 +22,7 @@ import java.util.Set;
  */
 
 
-public class LongestSubstringWithoutRepeatingChar_3 {
+public class _3_LongestSubstringWithoutRepeatingChar {
     public int lengthOfLongestSubstring(String s) {
         if( s == null || s.isEmpty()) return 0;
 
