@@ -46,4 +46,11 @@ public class LinkedListUtils {
         }
         System.out.println("null");
     }
+    public static ListNode getTail(ListNode head) {
+        while (head != null && head.next != null) {
+            head = head.next;
+        }
+        return head;
+    }
+
 }
