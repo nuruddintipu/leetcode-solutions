@@ -6,13 +6,13 @@ This repository contains Java-based solutions to popular LeetCode problems.
 
 <!-- AUTO-GENERATED-START -->
 
-**🧠 Problems Solved:** 25 total
+**🧠 Problems Solved:** 34 total
 
-- ✅ Easy: 5
-- ⚠️ Medium: 15
+- ✅ Easy: 8
+- ⚠️ Medium: 21
 - 🔥 Hard: 5
 
-![Difficulty Distribution](https://quickchart.io/chart?c={type:'pie',data:{labels:['Easy','Medium','Hard'],datasets:[{data:[5,15,5],backgroundColor:['#4CAF50','#FFC107','#F44336']}}]}})
+![Difficulty Distribution](https://quickchart.io/chart?c={type:'pie',data:{labels:['Easy','Medium','Hard'],datasets:[{data:[8,21,5],backgroundColor:['#4CAF50','#FFC107','#F44336']}}]}})
 
 **📋 Solution Table:**
 
@@ -28,7 +28,16 @@ This repository contains Java-based solutions to popular LeetCode problems.
 | [30](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) | Substring with Concatenation of All Words | Hard | Hash Table, String, Sliding Window | [_30_SubstringWithConcatenationOfAllWords.java](src/com/leetcode/solutions/_30_SubstringWithConcatenationOfAllWords.java) | O(n * m) where n = s.length(), m = word length  | O(k) where k = number of unique words
 | [61](https://leetcode.com/problems/rotate-list/) | Rotate List | Medium | Linked List, Two Pointer | [_61_RotateList.java](src/com/leetcode/solutions/_61_RotateList.java) | O(n)  | O(1)
 | [76](https://leetcode.com/problems/minimum-window-substring/) | Minimum Window Substring | Hard | Hash Table, String, Sliding window | [_76_MinWindowSubstring.java](src/com/leetcode/solutions/_76_MinWindowSubstring.java) | O(n+m) where n = s.length(), m = t.length()  | O(m) for character frequency maps
+| [82](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) | Remove Duplicates from Sorted List II | Medium | Linked List, Two Pointers | [_82_RemoveDuplicatesFromSortedListII.java](src/com/leetcode/solutions/_82_RemoveDuplicatesFromSortedListII.java) | O(n)  | O(1)
+| [83](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | Remove Duplicates From Sorted List | Easy | Linked List | [_83_RemoveDuplicatesFromSortedList.java](src/com/leetcode/solutions/_83_RemoveDuplicatesFromSortedList.java) | O(n)  | O(1)
+| [86](https://leetcode.com/problems/partition-list/) | Partition List | Medium | Linked List, Two Pointers | [_86_PartitionList.java](src/com/leetcode/solutions/_86_PartitionList.java) | O(n)  | O(1)
 | [92](https://leetcode.com/problems/reverse-linked-list-ii/) | Reverse Linked List II | Medium | Linked List | [_92_ReverseLinkedListII.java](src/com/leetcode/solutions/_92_ReverseLinkedListII.java) | O(n)  | O(1) for iterative approach, O(n) for recursive and stack
+| [141](https://leetcode.com/problems/linked-list-cycle/) | Linked list Cycle | Easy | Hash Table, Linked List, Two Pointers | [_141_LinkedListCycle.java](src/com/leetcode/solutions/_141_LinkedListCycle.java) | O(n)  | O(1)
+| [142](https://leetcode.com/problems/linked-list-cycle-ii/) | Linked List Cycle II | Medium | Hash Table, Linked List, Two Pointers | [_142_LinkedListCycleII.java](src/com/leetcode/solutions/_142_LinkedListCycleII.java) | O(n)  | O(1)
+| [143](https://leetcode.com/problems/reorder-list/) | Reorder List | Medium | Linked List, Two Pointers, Stack, Recursion | [_143_ReorderList.java](src/com/leetcode/solutions/_143_ReorderList.java) | O(n)  | O(1)
+| [147](https://leetcode.com/problems/insertion-sort-list/) | Insertion Sort List | Medium | Linked List, Sorting | [_147_InsertionSortList.java](src/com/leetcode/solutions/_147_InsertionSortList.java) | O(n^2)  | O(1)
+| [148](https://leetcode.com/problems/sort-list/) | Sort List | Medium | Linged List, Merge Sort, Divide and Conquer | [_148_SortList.java](src/com/leetcode/solutions/_148_SortList.java) | O(nlogn)  | O(1) for iterative, O(logn) for recursive
+| [160](https://leetcode.com/problems/intersection-of-two-linked-lists/) | Intersection of Two Linked Lists | Easy | Hash Table, Linked List, Two Pointers | [_160_IntersectionOfTwoLinkedLists.java](src/com/leetcode/solutions/_160_IntersectionOfTwoLinkedLists.java) | O(n+m)  | O(1)
 | [206](https://leetcode.com/problems/reverse-linked-list/) | Reverse Linked List | Easy | Linked List, Recursion | [_206_ReverseLinkedList.java](src/com/leetcode/solutions/_206_ReverseLinkedList.java) | O(n) for both iterative and recursive approaches  | O(1) if iterative, O(n) if recursive
 | [209](https://leetcode.com/problems/minimum-size-subarray-sum/) | Minimum Size Subarray Sum | Medium | Array, Binary Search, Sliding Window, Prefix Sum | [_209_MinSizeSubarraySum.java](src/com/leetcode/solutions/_209_MinSizeSubarraySum.java) | O(n)  | O(1)
 | [424](https://leetcode.com/problems/longest-repeating-character-replacement/) | Largest Repeating Character Replacement | Medium | Hash Table, String, Sliding window0 | [_424_LargestRepeatingCharReplacement.java](src/com/leetcode/solutions/_424_LargestRepeatingCharReplacement.java) | O(n)  | O(1)
