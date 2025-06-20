@@ -6,13 +6,13 @@ This repository contains Java-based solutions to popular LeetCode problems.
 
 <!-- AUTO-GENERATED-START -->
 
-**🧠 Problems Solved:** 44 total
+**🧠 Problems Solved:** 45 total
 
-- ✅ Easy: 12
+- ✅ Easy: 13
 - ⚠️ Medium: 27
 - 🔥 Hard: 5
 
-![Difficulty Distribution](https://quickchart.io/chart?c={type:'pie',data:{labels:['Easy','Medium','Hard'],datasets:[{data:[12,27,5],backgroundColor:['#4CAF50','#FFC107','#F44336']}}]}})
+![Difficulty Distribution](https://quickchart.io/chart?c=%7B%22type%22%3A%20%22pie%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22Easy%22%2C%20%22Medium%22%2C%20%22Hard%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22data%22%3A%20%5B13%2C%2027%2C%205%5D%2C%20%22backgroundColor%22%3A%20%5B%22%234CAF50%22%2C%20%22%23FFC107%22%2C%20%22%23F44336%22%5D%7D%5D%7D%2C%20%22options%22%3A%20%7B%22title%22%3A%20%7B%22display%22%3A%20true%2C%20%22text%22%3A%20%22LeetCode%20Problems%20by%20Difficulty%22%7D%7D%7D)
 
 **📋 Solution Table:**
 
@@ -55,6 +55,7 @@ This repository contains Java-based solutions to popular LeetCode problems.
 | [706](https://leetcode.com/problems/design-hashmap/) | Design HashMap | Easy | Array, Linked List, Hash Table, Design, Hash Function | [_706_DesignHashMap.java](src/com/leetcode/solutions/_706_DesignHashMap.java) | O(1) or O(n)  | O(n)
 | [707](https://leetcode.com/problems/design-linked-list/) | Design Linked List | Medium | Linked List, Design | [_707_DesignLinkedList.java](src/com/leetcode/solutions/_707_DesignLinkedList.java) |   | 
 | [725](https://leetcode.com/problems/split-linked-list-in-parts/) | Split Linked List in Parts | Medium | Linked List | [_725_SplitLinkedListInParts.java](src/com/leetcode/solutions/_725_SplitLinkedListInParts.java) | O(n)  | O(k)
+| [876](https://leetcode.com/problems/middle-of-the-linked-list/) | Middle Of The Linked List | Easy | Linked List, Two Pointers | [_876_MiddleOfTheLinkedList.java](src/com/leetcode/solutions/_876_MiddleOfTheLinkedList.java) | O(n)  | O(1)
 | [992](https://leetcode.com/problems/subarrays-with-k-different-integers/) | Subarrays With K Different Integers | Hard | Array, Hash Table, Sliding Window, Counting | [_992_SubarraysWithKDifferentIntegers.java](src/com/leetcode/solutions/_992_SubarraysWithKDifferentIntegers.java) | O(n) where n = nums.length  | O(k) for the frequency map
 | [1004](https://leetcode.com/problems/max-consecutive-ones-iii/) | Maximum Consecutive Ones III | Medium | Array, Binary Search, Sliding Window, Prefix Sum | [_1004_MaxConsecutiveOnesIII.java](src/com/leetcode/solutions/_1004_MaxConsecutiveOnesIII.java) | O(n)  | O(1)
 | [1358](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/) | Number of Substrings Containing All Three Characters | Medium | Hash Table, String, Sliding Window | [_1358_NumOfSubstringContainingAll3Char.java](src/com/leetcode/solutions/_1358_NumOfSubstringContainingAll3Char.java) | O(n) where n = s.length()  | O(1) - fixed size array of 3 elements
