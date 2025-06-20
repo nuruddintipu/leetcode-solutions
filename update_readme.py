@@ -1,7 +1,7 @@
-
 import os
 import re
 from pathlib import Path
+import urllib.parse
 
 # Configuration
 SOLUTIONS_DIR = Path("src/com/leetcode/solutions")
@@ -71,13 +71,28 @@ def update_readme(table, summary):
 
     total_solved = sum(summary.values())
 
-    # Generate QuickChart pie chart URL
-    chart_url = (
-        "https://quickchart.io/chart"
-        "?c={type:'pie',data:{labels:['Easy','Medium','Hard'],"
-        f"datasets:[{{data:[{summary['Easy']},{summary['Medium']},{summary['Hard']}],"
-        "backgroundColor:['#4CAF50','#FFC107','#F44336']}}]}}"
-    )
+    # Generate QuickChart pie chart URL with proper encoding
+    chart_config = {
+        "type": "pie",
+        "data": {
+            "labels": ["Easy", "Medium", "Hard"],
+            "datasets": [{
+                "data": [summary['Easy'], summary['Medium'], summary['Hard']],
+                "backgroundColor": ["#4CAF50", "#FFC107", "#F44336"]
+            }]
+        },
+        "options": {
+            "title": {
+                "display": True,
+                "text": "LeetCode Problems by Difficulty"
+            }
+        }
+    }
+
+    # Convert to JSON string and URL encode
+    import json
+    chart_json = json.dumps(chart_config)
+    chart_url = f"https://quickchart.io/chart?c={urllib.parse.quote(chart_json)}"
 
     summary_text = (
             f"**🧠 Problems Solved:** {total_solved} total\n\n"
@@ -106,4 +121,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
