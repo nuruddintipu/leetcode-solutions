@@ -6,13 +6,13 @@ This repository contains Java-based solutions to popular LeetCode problems.
 
 <!-- AUTO-GENERATED-START -->
 
-**🧠 Problems Solved:** 49 total
+**🧠 Problems Solved:** 55 total
 
 - ✅ Easy: 14
-- ⚠️ Medium: 30
+- ⚠️ Medium: 36
 - 🔥 Hard: 5
 
-![Difficulty Distribution](https://quickchart.io/chart?c=%7B%22type%22%3A%20%22pie%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22Easy%22%2C%20%22Medium%22%2C%20%22Hard%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22data%22%3A%20%5B14%2C%2030%2C%205%5D%2C%20%22backgroundColor%22%3A%20%5B%22%234CAF50%22%2C%20%22%23FFC107%22%2C%20%22%23F44336%22%5D%7D%5D%7D%2C%20%22options%22%3A%20%7B%22title%22%3A%20%7B%22display%22%3A%20true%2C%20%22text%22%3A%20%22LeetCode%20Problems%20by%20Difficulty%22%7D%7D%7D)
+![Difficulty Distribution](https://quickchart.io/chart?c=%7B%22type%22%3A%20%22pie%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22Easy%22%2C%20%22Medium%22%2C%20%22Hard%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22data%22%3A%20%5B14%2C%2036%2C%205%5D%2C%20%22backgroundColor%22%3A%20%5B%22%234CAF50%22%2C%20%22%23FFC107%22%2C%20%22%23F44336%22%5D%7D%5D%7D%2C%20%22options%22%3A%20%7B%22title%22%3A%20%7B%22display%22%3A%20true%2C%20%22text%22%3A%20%22LeetCode%20Problems%20by%20Difficulty%22%7D%7D%7D)
 
 **📋 Solution Table:**
 
@@ -64,7 +64,13 @@ This repository contains Java-based solutions to popular LeetCode problems.
 | [1358](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/) | Number of Substrings Containing All Three Characters | Medium | Hash Table, String, Sliding Window | [_1358_NumOfSubstringContainingAll3Char.java](src/com/leetcode/solutions/_1358_NumOfSubstringContainingAll3Char.java) | O(n) where n = s.length()  | O(1) - fixed size array of 3 elements
 | [1367](https://leetcode.com/problems/linked-list-in-binary-tree/) | Linked List In Binary Tree | Medium | Linked List, Tree, Binary Tree, Depth-first Search | [_1367_LinkedListInBinaryTree.java](src/com/leetcode/solutions/_1367_LinkedListInBinaryTree.java) | O(N*M)  | O(H)
 | [1456](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) | Maximum Number of Vowels in a Substring of Given Length | Medium | String, Sliding window | [_1456_MaxVowelsInSubstringOfGivenLength.java](src/com/leetcode/solutions/_1456_MaxVowelsInSubstringOfGivenLength.java) | O(n)  | O(1)
+| [1472](https://leetcode.com/problems/design-browser-history/) | Design Browser History | Medium | Array, Linked List, Stack, Design, Doubly-Linked List, Data Stream | [_1472_DesignBrowserHistory.java](src/com/leetcode/solutions/_1472_DesignBrowserHistory.java) | O(1)  | O(n)
+| [1669](https://leetcode.com/problems/merge-in-between-linked-lists/) | Merge In Between Linked Lists | Medium | Linkd List | [_1669_MergeInBetweenLinkedLists.java](src/com/leetcode/solutions/_1669_MergeInBetweenLinkedLists.java) | O(n)  | O(1)
+| [1670](https://leetcode.com/problems/design-front-middle-back-queue/) | Design Front Middle Back Queue | Medium | Array, Linked List, Design, Queue, Data Stream | [_1670_DesignFrontMiddleBackQueue.java](src/com/leetcode/solutions/_1670_DesignFrontMiddleBackQueue.java) | O(1)  | O(n)
 | [1695](https://leetcode.com/problems/maximum-erasure-value/) | Maximum Erasure Value | Medium | Array, Hash Table, Sliding window | [_1695_MaxErasureValue.java](src/com/leetcode/solutions/_1695_MaxErasureValue.java) | O(n)  | O(k) where k is the number of unique elements in the window
+| [1721](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/) | Swapping Nodes In a Linked List | Medium | Linked List, Two Pointers | [_1721_SwappingNodesInALinkedList.java](src/com/leetcode/solutions/_1721_SwappingNodesInALinkedList.java) | O(n)  | O(1)
+| [2095](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) | Delete the Middle Node Of A Linked List | Medium | Linked List, Two Pointers | [_2095_DeleteTheMiddleNodeOfALinkedList.java](src/com/leetcode/solutions/_2095_DeleteTheMiddleNodeOfALinkedList.java) | O(n)  | O(1)
+| [2130](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) | Maximum Twin Sum Of A Linked List | Medium | Linked List, Two Pointers, Stack | [_2130_MaximumTwinSumOfALinkedList.java](src/com/leetcode/solutions/_2130_MaximumTwinSumOfALinkedList.java) | O(n)  | O(1)
 | [2379](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/) | Minimum Recolors to Get K Consecutive Black Blocks | Easy | String, Sliding Window | [_2379_MinRecolorsToGetKConsecutiveBlackBlocks.java](src/com/leetcode/solutions/_2379_MinRecolorsToGetKConsecutiveBlackBlocks.java) | O(n)  | O(1)
 | [3423](https://leetcode.com/problems/maximum-difference-between-adjacent-elements-in-a-circular-array/) | Maximum Difference Between Adjacent Elements in a Circular Array | Easy | Array | [_3423_MaxDiffBetweenAdjacentElementsInCircularArray.java](src/com/leetcode/solutions/_3423_MaxDiffBetweenAdjacentElementsInCircularArray.java) | O(n) where n = nums.length  | O(1) - only using variables for tracking maximum
 
