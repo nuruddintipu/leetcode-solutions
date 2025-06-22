@@ -21,11 +21,9 @@ public class _1367_LinkedListInBinaryTree {
 
 
     private boolean isSubPathHelper(ListNode head, TreeNode root){
-        if(root == null) return false;
-
         if(head == null) return true;
 
-        if(head.val != root.val) return false;
+        if(root == null || head.val != root.val) return false;
 
         return isSubPathHelper(head.next, root.left) || isSubPathHelper(head.next, root.right);
     }
