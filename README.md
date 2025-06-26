@@ -6,13 +6,13 @@ This repository contains Java-based solutions to popular LeetCode problems.
 
 <!-- AUTO-GENERATED-START -->
 
-**🧠 Problems Solved:** 55 total
+**🧠 Problems Solved:** 61 total
 
 - ✅ Easy: 14
-- ⚠️ Medium: 36
+- ⚠️ Medium: 42
 - 🔥 Hard: 5
 
-![Difficulty Distribution](https://quickchart.io/chart?c=%7B%22type%22%3A%20%22pie%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22Easy%22%2C%20%22Medium%22%2C%20%22Hard%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22data%22%3A%20%5B14%2C%2036%2C%205%5D%2C%20%22backgroundColor%22%3A%20%5B%22%234CAF50%22%2C%20%22%23FFC107%22%2C%20%22%23F44336%22%5D%7D%5D%7D%2C%20%22options%22%3A%20%7B%22title%22%3A%20%7B%22display%22%3A%20true%2C%20%22text%22%3A%20%22LeetCode%20Problems%20by%20Difficulty%22%7D%7D%7D)
+![Difficulty Distribution](https://quickchart.io/chart?c=%7B%22type%22%3A%20%22pie%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22Easy%22%2C%20%22Medium%22%2C%20%22Hard%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22data%22%3A%20%5B14%2C%2042%2C%205%5D%2C%20%22backgroundColor%22%3A%20%5B%22%234CAF50%22%2C%20%22%23FFC107%22%2C%20%22%23F44336%22%5D%7D%5D%7D%2C%20%22options%22%3A%20%7B%22title%22%3A%20%7B%22display%22%3A%20true%2C%20%22text%22%3A%20%22LeetCode%20Problems%20by%20Difficulty%22%7D%7D%7D)
 
 **📋 Solution Table:**
 
@@ -46,6 +46,7 @@ This repository contains Java-based solutions to popular LeetCode problems.
 | [328](https://leetcode.com/problems/odd-even-linked-list/) | Odd Even Linked List | Medium | Linked List | [_328_OddEvenLinkedList.java](src/com/leetcode/solutions/_328_OddEvenLinkedList.java) | O(n)  | O(1)
 | [382](https://leetcode.com/problems/linked-list-random-node/) | Linked List Random Node | Medium | Linked List, Math, Reservoir Sampling, Randomized | [_382_LinkedListRandomNode.java](src/com/leetcode/solutions/_382_LinkedListRandomNode.java) | O(n)  | O(1)
 | [424](https://leetcode.com/problems/longest-repeating-character-replacement/) | Largest Repeating Character Replacement | Medium | Hash Table, String, Sliding window0 | [_424_LargestRepeatingCharReplacement.java](src/com/leetcode/solutions/_424_LargestRepeatingCharReplacement.java) | O(n)  | O(1)
+| [430](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | Flatten A Multilevel Doubly Linked List | Medium | Linked List, DFS, DLL | [_430_FlattenAMultilevelDoublyLinkedList.java](src/com/leetcode/solutions/_430_FlattenAMultilevelDoublyLinkedList.java) | O(n)  | O(n)
 | [438](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | Find All Anagram in a String | Medium | Hash Table, String, Sliding window | [_438_FindAllAnagramInAString.java](src/com/leetcode/solutions/_438_FindAllAnagramInAString.java) | O(n)  | O(1)
 | [567](https://leetcode.com/problems/permutation-in-string/) | Permutation in String | Medium | Hash Table, Two Pointer, String, Sliding Window | [_567_PermutationInString.java](src/com/leetcode/solutions/_567_PermutationInString.java) | O(n) where n = s2.length()  | O(1) - fixed size arrays of 26
 | [622](https://leetcode.com/problems/design-circular-queue/) | Design Circular Queue | Medium | Array, Linked List, Design, Queue | [_622_DesignCircularQueue.java](src/com/leetcode/solutions/_622_DesignCircularQueue.java) | O(1)  | O(n)
@@ -71,7 +72,12 @@ This repository contains Java-based solutions to popular LeetCode problems.
 | [1721](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/) | Swapping Nodes In a Linked List | Medium | Linked List, Two Pointers | [_1721_SwappingNodesInALinkedList.java](src/com/leetcode/solutions/_1721_SwappingNodesInALinkedList.java) | O(n)  | O(1)
 | [2095](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) | Delete the Middle Node Of A Linked List | Medium | Linked List, Two Pointers | [_2095_DeleteTheMiddleNodeOfALinkedList.java](src/com/leetcode/solutions/_2095_DeleteTheMiddleNodeOfALinkedList.java) | O(n)  | O(1)
 | [2130](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) | Maximum Twin Sum Of A Linked List | Medium | Linked List, Two Pointers, Stack | [_2130_MaximumTwinSumOfALinkedList.java](src/com/leetcode/solutions/_2130_MaximumTwinSumOfALinkedList.java) | O(n)  | O(1)
+| [2181](https://leetcode.com/problems/merge-nodes-in-between-zeros/) | Merge Nodes In Between Zeros | Medium | Linked List, Simulation | [_2181_MergeNodesInBetweenZeros.java](src/com/leetcode/solutions/_2181_MergeNodesInBetweenZeros.java) | O(n)  | O(1)
 | [2379](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/) | Minimum Recolors to Get K Consecutive Black Blocks | Easy | String, Sliding Window | [_2379_MinRecolorsToGetKConsecutiveBlackBlocks.java](src/com/leetcode/solutions/_2379_MinRecolorsToGetKConsecutiveBlackBlocks.java) | O(n)  | O(1)
+| [2487](https://leetcode.com/problems/remove-nodes-from-linked-list/) | Remove Nodes From Linked List | Medium | Linked List, Stack, Recursion, Monotonic Stack | [_2487_RemoveNodesFromLinkedList.java](src/com/leetcode/solutions/_2487_RemoveNodesFromLinkedList.java) | O(n)  | O(1)
+| [2807](https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/) | Insert Greatest Common Divisor In Linked List | Medium | Linked List, Math, Number Theory | [_2807_InsertGreatestCommonDivisorsInLinkedList.java](src/com/leetcode/solutions/_2807_InsertGreatestCommonDivisorsInLinkedList.java) | O(n)  | O(1)
+| [2816](https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/) | Double A Number Represented A Linked List | Medium | Linked List, Math, Stack | [_2816_DoubleANumberRepresentedAsALinkedList.java](src/com/leetcode/solutions/_2816_DoubleANumberRepresentedAsALinkedList.java) | O(n)  | O(1)
+| [3217](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/) | Delete Nodes From Linked List Present In Array | Medium | Array, Hash Table, Linked List | [_3217_DeleteNodesFromLinkedListPresentInArray.java](src/com/leetcode/solutions/_3217_DeleteNodesFromLinkedListPresentInArray.java) | O(n+m)  | O(m)
 | [3423](https://leetcode.com/problems/maximum-difference-between-adjacent-elements-in-a-circular-array/) | Maximum Difference Between Adjacent Elements in a Circular Array | Easy | Array | [_3423_MaxDiffBetweenAdjacentElementsInCircularArray.java](src/com/leetcode/solutions/_3423_MaxDiffBetweenAdjacentElementsInCircularArray.java) | O(n) where n = nums.length  | O(1) - only using variables for tracking maximum
 
 
