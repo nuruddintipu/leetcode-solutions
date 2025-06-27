@@ -6,13 +6,13 @@ This repository contains Java-based solutions to popular LeetCode problems.
 
 <!-- AUTO-GENERATED-START -->
 
-**🧠 Problems Solved:** 61 total
+**🧠 Problems Solved:** 64 total
 
-- ✅ Easy: 14
-- ⚠️ Medium: 42
+- ✅ Easy: 15
+- ⚠️ Medium: 44
 - 🔥 Hard: 5
 
-![Difficulty Distribution](https://quickchart.io/chart?c=%7B%22type%22%3A%20%22pie%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22Easy%22%2C%20%22Medium%22%2C%20%22Hard%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22data%22%3A%20%5B14%2C%2042%2C%205%5D%2C%20%22backgroundColor%22%3A%20%5B%22%234CAF50%22%2C%20%22%23FFC107%22%2C%20%22%23F44336%22%5D%7D%5D%7D%2C%20%22options%22%3A%20%7B%22title%22%3A%20%7B%22display%22%3A%20true%2C%20%22text%22%3A%20%22LeetCode%20Problems%20by%20Difficulty%22%7D%7D%7D)
+![Difficulty Distribution](https://quickchart.io/chart?c=%7B%22type%22%3A%20%22pie%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22Easy%22%2C%20%22Medium%22%2C%20%22Hard%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22data%22%3A%20%5B15%2C%2044%2C%205%5D%2C%20%22backgroundColor%22%3A%20%5B%22%234CAF50%22%2C%20%22%23FFC107%22%2C%20%22%23F44336%22%5D%7D%5D%7D%2C%20%22options%22%3A%20%7B%22title%22%3A%20%7B%22display%22%3A%20true%2C%20%22text%22%3A%20%22LeetCode%20Problems%20by%20Difficulty%22%7D%7D%7D)
 
 **📋 Solution Table:**
 
@@ -32,12 +32,14 @@ This repository contains Java-based solutions to popular LeetCode problems.
 | [83](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | Remove Duplicates From Sorted List | Easy | Linked List | [_83_RemoveDuplicatesFromSortedList.java](src/com/leetcode/solutions/_83_RemoveDuplicatesFromSortedList.java) | O(n)  | O(1)
 | [86](https://leetcode.com/problems/partition-list/) | Partition List | Medium | Linked List, Two Pointers | [_86_PartitionList.java](src/com/leetcode/solutions/_86_PartitionList.java) | O(n)  | O(1)
 | [92](https://leetcode.com/problems/reverse-linked-list-ii/) | Reverse Linked List II | Medium | Linked List | [_92_ReverseLinkedListII.java](src/com/leetcode/solutions/_92_ReverseLinkedListII.java) | O(n)  | O(1) for iterative approach, O(n) for recursive and stack
+| [133](https://leetcode.com/problems/clone-graph/) | Clone Graph | Medium | Hash Table, DFS, BFS, Graph | [_133_CloneGraph.java](src/com/leetcode/solutions/_133_CloneGraph.java) | O(V+E)  | O(V)
 | [141](https://leetcode.com/problems/linked-list-cycle/) | Linked list Cycle | Easy | Hash Table, Linked List, Two Pointers | [_141_LinkedListCycle.java](src/com/leetcode/solutions/_141_LinkedListCycle.java) | O(n)  | O(1)
 | [142](https://leetcode.com/problems/linked-list-cycle-ii/) | Linked List Cycle II | Medium | Hash Table, Linked List, Two Pointers | [_142_LinkedListCycleII.java](src/com/leetcode/solutions/_142_LinkedListCycleII.java) | O(n)  | O(1)
 | [143](https://leetcode.com/problems/reorder-list/) | Reorder List | Medium | Linked List, Two Pointers, Stack, Recursion | [_143_ReorderList.java](src/com/leetcode/solutions/_143_ReorderList.java) | O(n)  | O(1)
 | [147](https://leetcode.com/problems/insertion-sort-list/) | Insertion Sort List | Medium | Linked List, Sorting | [_147_InsertionSortList.java](src/com/leetcode/solutions/_147_InsertionSortList.java) | O(n^2)  | O(1)
 | [148](https://leetcode.com/problems/sort-list/) | Sort List | Medium | Linged List, Merge Sort, Divide and Conquer | [_148_SortList.java](src/com/leetcode/solutions/_148_SortList.java) | O(nlogn)  | O(1) for iterative, O(logn) for recursive
 | [160](https://leetcode.com/problems/intersection-of-two-linked-lists/) | Intersection of Two Linked Lists | Easy | Hash Table, Linked List, Two Pointers | [_160_IntersectionOfTwoLinkedLists.java](src/com/leetcode/solutions/_160_IntersectionOfTwoLinkedLists.java) | O(n+m)  | O(1)
+| [200](https://leetcode.com/problems/number-of-islands/) | Number Of Islands | Medium | Array, DFS, BFS, Union Find, Matrix | [_200_NumberOfIslands.java](src/com/leetcode/solutions/_200_NumberOfIslands.java) | O(n*m)  | O(n*m)
 | [203](https://leetcode.com/problems/remove-linked-list-elements/) | Remove Linked List Elements | Easy | Linked List, Recursion | [_203_RemoveLinkedListElements.java](src/com/leetcode/solutions/_203_RemoveLinkedListElements.java) | O(n)  | O(n) or O(1)
 | [206](https://leetcode.com/problems/reverse-linked-list/) | Reverse Linked List | Easy | Linked List, Recursion | [_206_ReverseLinkedList.java](src/com/leetcode/solutions/_206_ReverseLinkedList.java) | O(n) for both iterative and recursive approaches  | O(1) if iterative, O(n) if recursive
 | [209](https://leetcode.com/problems/minimum-size-subarray-sum/) | Minimum Size Subarray Sum | Medium | Array, Binary Search, Sliding Window, Prefix Sum | [_209_MinSizeSubarraySum.java](src/com/leetcode/solutions/_209_MinSizeSubarraySum.java) | O(n)  | O(1)
@@ -56,6 +58,7 @@ This repository contains Java-based solutions to popular LeetCode problems.
 | [706](https://leetcode.com/problems/design-hashmap/) | Design HashMap | Easy | Array, Linked List, Hash Table, Design, Hash Function | [_706_DesignHashMap.java](src/com/leetcode/solutions/_706_DesignHashMap.java) | O(1) or O(n)  | O(n)
 | [707](https://leetcode.com/problems/design-linked-list/) | Design Linked List | Medium | Linked List, Design | [_707_DesignLinkedList.java](src/com/leetcode/solutions/_707_DesignLinkedList.java) |   | 
 | [725](https://leetcode.com/problems/split-linked-list-in-parts/) | Split Linked List in Parts | Medium | Linked List | [_725_SplitLinkedListInParts.java](src/com/leetcode/solutions/_725_SplitLinkedListInParts.java) | O(n)  | O(k)
+| [733](https://leetcode.com/problems/flood-fill/) | Flood Fill | Easy | Array, DFS, BFS, Matrix | [_733_FloodFill.java](src/com/leetcode/solutions/_733_FloodFill.java) | O(N) where N is the number of pixel  | O(N)
 | [817](https://leetcode.com/problems/linked-list-components/) | Linked List Components | Medium | Array, Hash Table, Linked List | [_817_LinkedListComponents.java](src/com/leetcode/solutions/_817_LinkedListComponents.java) | O(n)  | O(G)
 | [876](https://leetcode.com/problems/middle-of-the-linked-list/) | Middle Of The Linked List | Easy | Linked List, Two Pointers | [_876_MiddleOfTheLinkedList.java](src/com/leetcode/solutions/_876_MiddleOfTheLinkedList.java) | O(n)  | O(1)
 | [992](https://leetcode.com/problems/subarrays-with-k-different-integers/) | Subarrays With K Different Integers | Hard | Array, Hash Table, Sliding Window, Counting | [_992_SubarraysWithKDifferentIntegers.java](src/com/leetcode/solutions/_992_SubarraysWithKDifferentIntegers.java) | O(n) where n = nums.length  | O(k) for the frequency map
