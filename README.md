@@ -6,13 +6,13 @@ This repository contains Java-based solutions to popular LeetCode problems.
 
 <!-- AUTO-GENERATED-START -->
 
-**🧠 Problems Solved:** 64 total
+**🧠 Problems Solved:** 65 total
 
 - ✅ Easy: 15
-- ⚠️ Medium: 44
+- ⚠️ Medium: 45
 - 🔥 Hard: 5
 
-![Difficulty Distribution](https://quickchart.io/chart?c=%7B%22type%22%3A%20%22pie%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22Easy%22%2C%20%22Medium%22%2C%20%22Hard%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22data%22%3A%20%5B15%2C%2044%2C%205%5D%2C%20%22backgroundColor%22%3A%20%5B%22%234CAF50%22%2C%20%22%23FFC107%22%2C%20%22%23F44336%22%5D%7D%5D%7D%2C%20%22options%22%3A%20%7B%22title%22%3A%20%7B%22display%22%3A%20true%2C%20%22text%22%3A%20%22LeetCode%20Problems%20by%20Difficulty%22%7D%7D%7D)
+![Difficulty Distribution](https://quickchart.io/chart?c=%7B%22type%22%3A%20%22pie%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22Easy%22%2C%20%22Medium%22%2C%20%22Hard%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22data%22%3A%20%5B15%2C%2045%2C%205%5D%2C%20%22backgroundColor%22%3A%20%5B%22%234CAF50%22%2C%20%22%23FFC107%22%2C%20%22%23F44336%22%5D%7D%5D%7D%2C%20%22options%22%3A%20%7B%22title%22%3A%20%7B%22display%22%3A%20true%2C%20%22text%22%3A%20%22LeetCode%20Problems%20by%20Difficulty%22%7D%7D%7D)
 
 **📋 Solution Table:**
 
@@ -33,6 +33,7 @@ This repository contains Java-based solutions to popular LeetCode problems.
 | [86](https://leetcode.com/problems/partition-list/) | Partition List | Medium | Linked List, Two Pointers | [_86_PartitionList.java](src/com/leetcode/solutions/_86_PartitionList.java) | O(n)  | O(1)
 | [92](https://leetcode.com/problems/reverse-linked-list-ii/) | Reverse Linked List II | Medium | Linked List | [_92_ReverseLinkedListII.java](src/com/leetcode/solutions/_92_ReverseLinkedListII.java) | O(n)  | O(1) for iterative approach, O(n) for recursive and stack
 | [133](https://leetcode.com/problems/clone-graph/) | Clone Graph | Medium | Hash Table, DFS, BFS, Graph | [_133_CloneGraph.java](src/com/leetcode/solutions/_133_CloneGraph.java) | O(V+E)  | O(V)
+| [138](https://leetcode.com/problems/copy-list-with-random-pointer/) | Copy List with Random Pointer | Medium | Hash Table, Linked List | [_138_CopyListWithRandomPointer.java](src/com/leetcode/solutions/_138_CopyListWithRandomPointer.java) | O(n)  | O(1)
 | [141](https://leetcode.com/problems/linked-list-cycle/) | Linked list Cycle | Easy | Hash Table, Linked List, Two Pointers | [_141_LinkedListCycle.java](src/com/leetcode/solutions/_141_LinkedListCycle.java) | O(n)  | O(1)
 | [142](https://leetcode.com/problems/linked-list-cycle-ii/) | Linked List Cycle II | Medium | Hash Table, Linked List, Two Pointers | [_142_LinkedListCycleII.java](src/com/leetcode/solutions/_142_LinkedListCycleII.java) | O(n)  | O(1)
 | [143](https://leetcode.com/problems/reorder-list/) | Reorder List | Medium | Linked List, Two Pointers, Stack, Recursion | [_143_ReorderList.java](src/com/leetcode/solutions/_143_ReorderList.java) | O(n)  | O(1)
