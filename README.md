@@ -6,13 +6,13 @@ This repository contains Java-based solutions to popular LeetCode problems.
 
 <!-- AUTO-GENERATED-START -->
 
-**🧠 Problems Solved:** 65 total
+**🧠 Problems Solved:** 73 total
 
-- ✅ Easy: 15
-- ⚠️ Medium: 45
+- ✅ Easy: 22
+- ⚠️ Medium: 46
 - 🔥 Hard: 5
 
-![Difficulty Distribution](https://quickchart.io/chart?c=%7B%22type%22%3A%20%22pie%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22Easy%22%2C%20%22Medium%22%2C%20%22Hard%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22data%22%3A%20%5B15%2C%2045%2C%205%5D%2C%20%22backgroundColor%22%3A%20%5B%22%234CAF50%22%2C%20%22%23FFC107%22%2C%20%22%23F44336%22%5D%7D%5D%7D%2C%20%22options%22%3A%20%7B%22title%22%3A%20%7B%22display%22%3A%20true%2C%20%22text%22%3A%20%22LeetCode%20Problems%20by%20Difficulty%22%7D%7D%7D)
+![Difficulty Distribution](https://quickchart.io/chart?c=%7B%22type%22%3A%20%22pie%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22Easy%22%2C%20%22Medium%22%2C%20%22Hard%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22data%22%3A%20%5B22%2C%2046%2C%205%5D%2C%20%22backgroundColor%22%3A%20%5B%22%234CAF50%22%2C%20%22%23FFC107%22%2C%20%22%23F44336%22%5D%7D%5D%7D%2C%20%22options%22%3A%20%7B%22title%22%3A%20%7B%22display%22%3A%20true%2C%20%22text%22%3A%20%22LeetCode%20Problems%20by%20Difficulty%22%7D%7D%7D)
 
 **📋 Solution Table:**
 
@@ -32,6 +32,10 @@ This repository contains Java-based solutions to popular LeetCode problems.
 | [83](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | Remove Duplicates From Sorted List | Easy | Linked List | [_83_RemoveDuplicatesFromSortedList.java](src/com/leetcode/solutions/_83_RemoveDuplicatesFromSortedList.java) | O(n)  | O(1)
 | [86](https://leetcode.com/problems/partition-list/) | Partition List | Medium | Linked List, Two Pointers | [_86_PartitionList.java](src/com/leetcode/solutions/_86_PartitionList.java) | O(n)  | O(1)
 | [92](https://leetcode.com/problems/reverse-linked-list-ii/) | Reverse Linked List II | Medium | Linked List | [_92_ReverseLinkedListII.java](src/com/leetcode/solutions/_92_ReverseLinkedListII.java) | O(n)  | O(1) for iterative approach, O(n) for recursive and stack
+| [100](https://leetcode.com/problems/same-tree/) | Same Tree | Easy | Tree, DFS, BFS, Binary Tree | [_100_SameTree.java](src/com/leetcode/solutions/_100_SameTree.java) | O(N)  | O(H)
+| [104](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Maximum Depth of Binary Tree | Easy | Tree, DFS, BFS, Binary Tree | [_104_MaximumDepthOfBinaryTree.java](src/com/leetcode/solutions/_104_MaximumDepthOfBinaryTree.java) | O(N)  | O(H)
+| [110](https://leetcode.com/problems/balanced-binary-tree/) | Balanced Binary Tree | Easy | Tree, Binary Tree, DFS | [_110_BalancedBinaryTree.java](src/com/leetcode/solutions/_110_BalancedBinaryTree.java) | O(N)  | O(H)
+| [112](https://leetcode.com/problems/path-sum/) | Path Sum | Easy | Tree, DFS, BFS, Binary Tree | [_112_PathSum.java](src/com/leetcode/solutions/_112_PathSum.java) | O(N)  | O(H)
 | [133](https://leetcode.com/problems/clone-graph/) | Clone Graph | Medium | Hash Table, DFS, BFS, Graph | [_133_CloneGraph.java](src/com/leetcode/solutions/_133_CloneGraph.java) | O(V+E)  | O(V)
 | [138](https://leetcode.com/problems/copy-list-with-random-pointer/) | Copy List with Random Pointer | Medium | Hash Table, Linked List | [_138_CopyListWithRandomPointer.java](src/com/leetcode/solutions/_138_CopyListWithRandomPointer.java) | O(n)  | O(1)
 | [141](https://leetcode.com/problems/linked-list-cycle/) | Linked list Cycle | Easy | Hash Table, Linked List, Two Pointers | [_141_LinkedListCycle.java](src/com/leetcode/solutions/_141_LinkedListCycle.java) | O(n)  | O(1)
@@ -51,16 +55,20 @@ This repository contains Java-based solutions to popular LeetCode problems.
 | [424](https://leetcode.com/problems/longest-repeating-character-replacement/) | Largest Repeating Character Replacement | Medium | Hash Table, String, Sliding window0 | [_424_LargestRepeatingCharReplacement.java](src/com/leetcode/solutions/_424_LargestRepeatingCharReplacement.java) | O(n)  | O(1)
 | [430](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | Flatten A Multilevel Doubly Linked List | Medium | Linked List, DFS, DLL | [_430_FlattenAMultilevelDoublyLinkedList.java](src/com/leetcode/solutions/_430_FlattenAMultilevelDoublyLinkedList.java) | O(n)  | O(n)
 | [438](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | Find All Anagram in a String | Medium | Hash Table, String, Sliding window | [_438_FindAllAnagramInAString.java](src/com/leetcode/solutions/_438_FindAllAnagramInAString.java) | O(n)  | O(1)
+| [463](https://leetcode.com/problems/island-perimeter/) | Islan Perimeter | Easy | Array, BFS, DFS, Matrix | [_463_IslanPerimeter.java](src/com/leetcode/solutions/_463_IslanPerimeter.java) | O(N*M)  | O(N*M)
 | [567](https://leetcode.com/problems/permutation-in-string/) | Permutation in String | Medium | Hash Table, Two Pointer, String, Sliding Window | [_567_PermutationInString.java](src/com/leetcode/solutions/_567_PermutationInString.java) | O(n) where n = s2.length()  | O(1) - fixed size arrays of 26
+| [617](https://leetcode.com/problems/merge-two-binary-trees/) | Merge Two Binary Trees | Easy | Tree, DFS, BFS, Binary Tree | [_617_MergeTwoBinaryTrees.java](src/com/leetcode/solutions/_617_MergeTwoBinaryTrees.java) | O(N)  | O(H)
 | [622](https://leetcode.com/problems/design-circular-queue/) | Design Circular Queue | Medium | Array, Linked List, Design, Queue | [_622_DesignCircularQueue.java](src/com/leetcode/solutions/_622_DesignCircularQueue.java) | O(1)  | O(n)
 | [641](https://leetcode.com/problems/design-circular-deque/) | Design Circular Deque | Medium | Array, Linked List, Design, Queue | [_641_DesignCircularDeque.java](src/com/leetcode/solutions/_641_DesignCircularDeque.java) | O(1)  | O(n)
 | [643](https://leetcode.com/problems/maximum-average-subarray-i/) | Maximum Average Subarray I | Easy | Array, Sliding window | [_643_MaxAvgSubarrayI.java](src/com/leetcode/solutions/_643_MaxAvgSubarrayI.java) | O(n)  | O(1)
+| [695](https://leetcode.com/problems/max-area-of-island/) | Max Area of Island | Medium | Array, DFS, BFS, Union Find, Matrix | [_695_MaxAreaOfIsland.java](src/com/leetcode/solutions/_695_MaxAreaOfIsland.java) | O(N*M)  | O(N*M)
 | [705](https://leetcode.com/problems/design-hashset/) | Design HashSet | Easy | Array, Hash Table, Linked List, Design, Hash Function | [_705_DesignHashSet.java](src/com/leetcode/solutions/_705_DesignHashSet.java) | O(1) avg, O(n) worst  | O(n+m)
 | [706](https://leetcode.com/problems/design-hashmap/) | Design HashMap | Easy | Array, Linked List, Hash Table, Design, Hash Function | [_706_DesignHashMap.java](src/com/leetcode/solutions/_706_DesignHashMap.java) | O(1) or O(n)  | O(n)
 | [707](https://leetcode.com/problems/design-linked-list/) | Design Linked List | Medium | Linked List, Design | [_707_DesignLinkedList.java](src/com/leetcode/solutions/_707_DesignLinkedList.java) |   | 
 | [725](https://leetcode.com/problems/split-linked-list-in-parts/) | Split Linked List in Parts | Medium | Linked List | [_725_SplitLinkedListInParts.java](src/com/leetcode/solutions/_725_SplitLinkedListInParts.java) | O(n)  | O(k)
 | [733](https://leetcode.com/problems/flood-fill/) | Flood Fill | Easy | Array, DFS, BFS, Matrix | [_733_FloodFill.java](src/com/leetcode/solutions/_733_FloodFill.java) | O(N) where N is the number of pixel  | O(N)
 | [817](https://leetcode.com/problems/linked-list-components/) | Linked List Components | Medium | Array, Hash Table, Linked List | [_817_LinkedListComponents.java](src/com/leetcode/solutions/_817_LinkedListComponents.java) | O(n)  | O(G)
+| [872](https://leetcode.com/problems/leaf-similar-trees/) | Leaf Similar Trees | Easy | Tree, DFS, Binary Tree | [_872_LeafSimilarTrees.java](src/com/leetcode/solutions/_872_LeafSimilarTrees.java) | O(N)  | O(N)
 | [876](https://leetcode.com/problems/middle-of-the-linked-list/) | Middle Of The Linked List | Easy | Linked List, Two Pointers | [_876_MiddleOfTheLinkedList.java](src/com/leetcode/solutions/_876_MiddleOfTheLinkedList.java) | O(n)  | O(1)
 | [992](https://leetcode.com/problems/subarrays-with-k-different-integers/) | Subarrays With K Different Integers | Hard | Array, Hash Table, Sliding Window, Counting | [_992_SubarraysWithKDifferentIntegers.java](src/com/leetcode/solutions/_992_SubarraysWithKDifferentIntegers.java) | O(n) where n = nums.length  | O(k) for the frequency map
 | [1004](https://leetcode.com/problems/max-consecutive-ones-iii/) | Maximum Consecutive Ones III | Medium | Array, Binary Search, Sliding Window, Prefix Sum | [_1004_MaxConsecutiveOnesIII.java](src/com/leetcode/solutions/_1004_MaxConsecutiveOnesIII.java) | O(n)  | O(1)
